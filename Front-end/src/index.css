@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Merienda:wght@300..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.text-cyan {
+  font-family: 'Merienda', cursive; /* Police pour "Comptes Bancaires" */
+  font-size: 2.5rem;
+  color: #00FFFF;
+}
+
+.text-muted {
+  font-family: 'Doto', cursive; /* Police pour "Gérez vos comptes bancaires avec simplicité" */
+  font-size: 1.2rem;
+  color:#ffffff ;
+}
+
+body {
+  background-color: #121212; /* Fond sombre global */
+  color: #00FFFF; /* Texte cyan global */
+  font-family: Arial, sans-serif;
+}
+
+.table {
+  border-color: #00FFFF; /* Bordures cyan pour les tableaux */
+}
+
+button {
+  border: none;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9; /* Effet hover pour les boutons */
+}
+
+.form-control {
+  background-color: #1e1e1e; /* Fond sombre pour les champs */
+  color: #FFFFFF;
+  border: 1px solid #00FFFF;
+}
+
+.form-control:focus {
+  border-color: #00FFFF;
+  box-shadow: 0 0 5px #00FFFF;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.input-group .input-group-text {
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  padding: 10px;
+}
+
+.input-group .form-control {
+  flex: 1;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+}
+
+.input-group .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.text-right button {
+  margin-right: 10px;
+}
+
+.text-right button:last-child {
+  margin-right: 0;
+}

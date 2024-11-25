@@ -1,0 +1,24 @@
+body {
+    background-color: #1a2436;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .text-cyan {
+    color: #00bcd4;
+  }
+  
+  .dark-theme .btn-outline-light {
+    color: #00bcd4;
+    border-color: #00bcd4;
+  }
+  
+  .dark-theme .btn-outline-light:hover {
+    background-color: #00bcd4;
+    color: #0e1117;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #1c2331;
+  }
+  
