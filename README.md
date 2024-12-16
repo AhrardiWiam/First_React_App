@@ -56,6 +56,8 @@ L'application utilise une architecture **client-serveur** :
 - Un menu déroulant permet de sélectionner le format des requêtes entre **JSON** et **XML**.
 
 
+![Image 2024-11-26 at 01 10 30](https://github.com/user-attachments/assets/42f2e1ae-5286-443b-a6c9-686ad81a8372)
 
+![Image 2024-11-26 at 01 10 44](https://github.com/user-attachments/assets/f61da0d1-d2e3-4826-9120-64f07335cd95)
 
   
